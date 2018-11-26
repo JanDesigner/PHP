@@ -1,0 +1,9 @@
+abs(-100); // result 100 absolute number
+pow(2,4); // 16 power
+sqrt(16); // 4
+max(2,10); // 10 not 2
+min(2,10); // 2 not 10 
+round(3.2); // 3
+ceil(3.3); always round off  4
+floor(3.6); always round off down 2
+
