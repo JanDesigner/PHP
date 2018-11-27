@@ -1,2 +1,19 @@
   $friends = array("john","patrick","batino");
   echo count($friends);
+
+
+    <input type = "checkbox" name = "fruits[]" value = "Apples"> Apple <br>
+    <input type = "checkbox" name = "fruits[]" value = "Orange"> Oranges <br>
+    <input type = "checkbox" name = "fruits[]" value = "Pears"> Pears <br>
+    <button class = "btn">Submit</button>
+
+  </form>
+</div>
+  <div class = "container">
+  <?php
+
+  $fruits = $_POST["fruits"];
+
+  echo $fruits[0];
+  echo $fruits[1];
+  echo $fruits[2];
