@@ -21,3 +21,7 @@
   ?>
 </div>
 
+
+
+method = "post"  means not getting information in website
+method = "get" information are revealed in site;
