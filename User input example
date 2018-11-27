@@ -1,0 +1,23 @@
+<div class = "container">
+
+  <form action = "#" method = "get" class = "form-group">
+    <input type = "text" class = "form-control" name = "color" placeholder="Noun">
+    <input type = "text" class = "form-control" name = "plural" placeholder = "Plural">
+    <input type = "text" class = "form-control" name = "celebrity" placeholder = "Celebrity">
+    <button type = "submit" class = "btn btn-primary">Send</button>
+  </form>
+</div>
+  <div class = "container">
+  <?php
+    $color = $_GET["color"];
+    $plural = $_GET["plural"];
+    $celebrity = $_GET["celebrity"];
+
+
+    echo "roses are $color <br>";
+    echo "$plural are blue <br>";
+    echo "I Love $celebrity";
+
+  ?>
+</div>
+
