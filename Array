@@ -1,0 +1,2 @@
+  $friends = array("john","patrick","batino");
+  echo count($friends);
