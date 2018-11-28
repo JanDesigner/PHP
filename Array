@@ -40,3 +40,27 @@ getting array using textbox
 
 
   ?>
+  
+  
+  
+  ****** 
+  LIMITED ARRAY EXAM
+  ******
+    <form action = "#" method = "POST" class = "form-group" >
+        <div class = "headers"> Grade </div>
+<div class = "grade-form">
+      <input type = "text" name = "num1" class = "form-control" placeholder = " Grade 1">
+      <input type = "text" name = "num2" class = "form-control" placeholder = " Grade 2">
+      <input type = "text" name = "num3" class = "form-control" placeholder = " Grade 3">
+      <input type = "text" name = "num4" class = "form-control" placeholder = " Grade 4">
+</div>
+      <button type = "submit" class = "btn btn-primary"> Submit </button>
+  </form>
+
+  <?php
+    $findCount = array($_POST["num1"] , $_POST["num2"] , $_POST["num3"] , $_POST["num4"]);
+    $result = $_POST["num1"] + $_POST["num2"] + $_POST["num3"] + $_POST["num4"];
+
+    echo $result / count($findCount) ;
+
+  ?>
