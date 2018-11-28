@@ -17,3 +17,26 @@
   echo $fruits[0];
   echo $fruits[1];
   echo $fruits[2];
+
+**********
+getting array using textbox
+**********
+
+
+<form action = "#" method = "post" class = "form-group">
+
+    <input type = "text" name = "student" class = "form-text">
+
+    <button class = "btn">Submit</button>
+
+  </form>
+</div>
+  <div class = "container">
+  <?php
+
+  $grades = array("Jim" => "A+" , "Pat" => "B+" , "martin" => "C+");
+  echo $grades[$_POST["student"]];
+
+
+
+  ?>
