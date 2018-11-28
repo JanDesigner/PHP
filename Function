@@ -1,0 +1,48 @@
+  funtion sayHi(){
+  echo "Hi"
+  }
+  
+    function sayHi($name){
+
+      echo "Hello $name";
+
+    }
+
+      sayHi("John");
+      
+ *****************
+ Exmample 
+ *****************
+ 
+ 
+  <form action = "#" method = "POST" class = "form-group">
+
+      <section class = "infoF">
+
+          <input type = "text" class = "" id = "fname" name = "firstName" placeholder="Firstname">
+          <input type = "text" class = "" id = "mname" name = "middleName" placeholder="Middlename">
+          <input type = "text" class = "" id = "lname" name = "lastName" placeholder="Lastname">
+          <input type = "text" class = "address" name = "address" placeholder="Address">
+          <input type = "text" class = "email" name = "email" placeholder="Email">
+          <input type = "text" class = "age" name = "age" placeholder="Age">
+
+      </section>
+
+      <button class = "btn btn-primary btn-sm">Submit</button>
+
+  </form>
+
+
+
+<?php
+
+      function getInfo($fName,$mName,$lName,$address,$email,$age) {
+        return array("$fName","$mName","$lName","$address,$email,$age");
+      }
+
+    $myInfoArray = getInfo($_POST["firstName"],$_POST["middleName"],$_POST["lastName"],$_POST["address"],$_POST["email"],$_POST["age"]);
+
+      echo $myInfoArray[1];
+ ?>
+
+  
