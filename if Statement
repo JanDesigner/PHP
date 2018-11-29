@@ -1,0 +1,22 @@
+if statement 
+
+if ( $ismale ) {
+
+} elseif {
+
+}
+ else {
+
+}
+
+
+operators  
+***********
+&& and 
+|| or
+!$variable is not
+> greter than
+< less than
+>=
+<=
+!= not equal
