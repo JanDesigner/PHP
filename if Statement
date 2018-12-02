@@ -21,8 +21,8 @@ operators
 <=
 != not equal
 
-
-
+***************************
+WHILE DO WHILE LOOP
 ***************************
   $grade = $_POST["grade"];
     switch($grade){
@@ -37,4 +37,12 @@ operators
             echo "You fail";
             break;
     };
+    
+    
+            $index = 10;
+        do{
+            echo "$index <br>";
+            $index++;
+        }while($index <= 5)
+
     ***********************
