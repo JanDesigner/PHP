@@ -20,3 +20,21 @@ operators
 >=
 <=
 != not equal
+
+
+
+***************************
+  $grade = $_POST["grade"];
+    switch($grade){
+
+        case "A":
+            echo "You did amazing";
+            break;
+        case "B":
+            echo "You did pretty good";
+            break;
+        default:
+            echo "You fail";
+            break;
+    };
+    ***********************
