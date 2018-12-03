@@ -3,4 +3,13 @@
             echo "$i <br>";
     }
     
+
+  $index = 1;
+    do{
+        echo $index;
+        $index++;
+    }
+    while($index <= 5);
+
+    
  
