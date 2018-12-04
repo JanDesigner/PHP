@@ -1,0 +1,40 @@
+
+<?php include "header.html"?>
+
+<?php
+    $title = "my First Post";
+    $author = "Mike";
+    $wordCount = 400;
+
+    include "article-header.php";
+    include "tools.php";
+
+    sayHi("John");
+    echo $feetInMiles;
+?>
+<?php include "footer.html"?>
+
+
+**************************
+<?php
+    $feetInMiles = 44444;
+
+    function sayHi($name){
+        echo "hello $name";
+    }
+
+
+?>
+*************************
+<h2>
+    <?php echo $title; ?>
+</h2>
+<h4>
+    <?php echo $author; ?>
+</h4>
+word count: <?php echo $wordCount; ?>
+
+********************
+<h1>Hello visitor</h1>
+<hr>
+***********************
