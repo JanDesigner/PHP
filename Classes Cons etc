@@ -1,0 +1,14 @@
+   ****************************
+   
+   class book {
+      var $author;
+    }
+    $book1 = new book;
+    $book1 -> $author = "123";
+
+    echo $book1 -> $author;
+    echo $book1 -> $author;
+
+  ?>
+   ****************************
+   
