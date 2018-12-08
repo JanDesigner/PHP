@@ -41,4 +41,29 @@
     echo $avengers->getRating();
 
 ***********************************************
+
+
+    class Chef {
+      function makeMeatBalls(){
+        echo "Making Meatballs <br>";
+      }
+
+    }
+    class ItalianChef extends Chef {
+      function makePasta(){
+        echo "Making Super Pasta <br>";
+      }
+      function makeMeatBalls(){
+        echo "Making Italian MeatBalls";
+      }
+    }
+
+    $chef = new Chef;
+    $chef->makeMeatBalls();
+    $italianPasta = new ItalianChef;
+    $italianPasta->makePasta();
+    $italianPasta->makeMeatBalls();
+
+
+****************************************
    
